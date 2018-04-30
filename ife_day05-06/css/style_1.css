@@ -1,0 +1,26 @@
+.basic-info{
+	float: left;
+}
+.basic-info h3,.basic-info span{
+	float: left;
+}
+.basic-info h3{
+	padding-right: 20px;
+}
+.basic-info span {
+	margin-top: 21px;
+	padding-right: 10px;
+}
+.cl{
+	clear: both;
+}
+.contact-info h3,.contact-info span{
+	float: left;
+}
+.contact-info h3{
+	margin-right: 20px;
+}
+.contact-info span {
+	margin-top: 20px;
+	padding-right: 10px;
+}
