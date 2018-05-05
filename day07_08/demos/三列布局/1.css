@@ -1,0 +1,29 @@
+/*圣杯布局*/
+.container {
+	height: 1000px;
+	padding:0 200px;
+}
+.middle {
+	width:100%;
+	background-color:#80DEEA;
+	height: 1000px;
+	float: left;
+}
+.left {
+	position: relative;
+	width: 200px;
+	height: 1000px;
+	background-color: #B3E5FC;
+	margin-left: -100%;
+	float:left;
+	left:-200px;
+}
+.right {
+	position: relative;
+	width:200px;
+	height: 1000px;
+	background-color: #F0F4C3;
+	margin-left:-200px;
+	float:left;
+	right:-200px;
+}

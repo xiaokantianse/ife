@@ -1,0 +1,19 @@
+/*实现一个两栏布局，右侧固定宽度，左侧根据浏览器宽度进行自适应变化*/
+/*利用了position*/
+.container {
+	height: 1000px;
+	position: relative;
+}
+.left {
+	height: 1000px;
+	margin-right: 200px;
+	background-color: #81D4FA;
+}
+.right {
+	width: 200px;
+	height: 1000px;
+	background-color: #FFEE58;
+	position: absolute;
+	top:0;
+	right:0;
+}

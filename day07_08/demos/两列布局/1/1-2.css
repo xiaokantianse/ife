@@ -1,0 +1,21 @@
+/*position布局*/
+.container {
+	width:800px;
+	height: 1000px;
+	margin: 0 auto;
+	position:relative;
+
+}
+.left {
+	width:30%;
+	height: 1000px;
+	background-color: #5DADE2  ;
+}
+.right{
+	width: 70%;
+	height: 1000px;
+	position: absolute;
+	left:240px;
+	top:0;
+	background-color:#2ECC71  ;
+}

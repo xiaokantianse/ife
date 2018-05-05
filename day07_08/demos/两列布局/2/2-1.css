@@ -1,0 +1,20 @@
+/*左侧固定宽度，右侧根据浏览器宽度进行自适应变化*/
+/*使用float + margin*/
+/*自己之前犯蠢，container设置了宽高还想自适应*/
+.container{
+/*	width:800px;
+	height:1000px;
+	margin:0 auto;*/
+	overflow: hidden;
+}
+.left {
+	width:240px;
+	height:1000px;
+	background-color: #85C1E9;
+	float:left;
+}
+.right {
+	height: 1000px;
+	background-color:#48C9B0  ;
+	margin-left: 240px;
+}
