@@ -1,0 +1,176 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.pri {
+	width: 98px;
+	background: #1d2531;
+	height: 1020px;
+	float: left;
+}
+.item1,.item2,.item3,.item4{
+	position: fixed;
+}
+.item1 {
+	top:20px;
+	left: 20px;
+}
+.item2 {
+	top:86px;
+	left: 20px;
+}
+.item3 {
+	top:158px;
+	left: 20px;
+}
+.item4 {
+	top:230px;
+	left: 20px;
+}
+.sec{
+	float: left;
+	width: 254px;
+	height: 1020px;
+	background: #222c3c;
+	color: #b7c0cd;
+}
+.part-one,.part-two,.part-three {
+	padding-top: 24px;
+	padding-left: 33px;
+	border-bottom: 1px solid white;
+	position: relative;
+}
+.part-one h4{
+	float: left;
+	margin-right: 100px;
+}
+.part-one ul,.part-two ul,.part-three ul{
+	list-style:none;
+}
+.part-one ul li,.part-two ul li,.part-three ul li{
+	height: 40px;
+	line-height: 40px;
+}
+.part-one a,.part-two a,.part-three a{
+	text-decoration: none;
+	color:#b7c0cd; 
+}
+.part-two h4{
+	float: left;
+	margin-right: 50px;
+}
+.part-three {
+	border-bottom: none;
+}
+.part-three h4{
+		float: left;
+	margin-right: 100px;
+}
+.server {
+	position: fixed;
+	bottom:10px;
+	left:120px;
+}
+.chat-header {
+	height: 80px;
+	border-bottom: 1px solid #e6e9ec;
+}
+.chat-header .message{
+	float: left;
+	line-height: 80px;
+}
+.chat-header .user img{
+	position:absolute;
+	right: 128px;
+	top:5px;
+}
+.user .name{
+	position: absolute;
+	right: 20px;
+	top:10px;
+}
+.chat-base {
+	height: 942px;
+}
+.left-part {
+	width:402px;
+	float: left;
+}
+.top{
+	height: 70px;
+	border: 1px solid gray;
+	/*position: relative;*/
+}
+.top .search {
+	width: 342px;
+	height: 33px;
+	border:1px solid gray;
+	margin-left: 32px;
+	margin-top: 18px;
+}
+/*.search img{
+	display: inline-block;
+	padding-right: 30px;
+}*/
+.chat-content div{
+	height:132px ;
+}
+.content1{
+	border-right: 1px solid gray;
+	border-bottom:1px solid gray ;
+}
+.content1 .title{
+	float: right;
+	margin-right: 80px;
+	margin-top: 10px;
+	color:#5eb4f5;
+}
+.right-part {
+	width: 500px;
+	height: 942px;
+	float: left;
+}
+.right-header{
+	/*width: 829px;*/
+	height: 71px;
+	border-bottom: 1px solid gray;
+	position: relative;
+}
+
+.right-header ul{
+	list-style: none;
+	width: 132px;
+	height: 32px;
+	margin-left: 150px;
+}
+.right-header ul li{
+	width:42px;
+	height:32px;
+	border: 1px solid gray;
+	float: left;
+	text-align: center;
+}
+.next img{
+	position: absolute;
+	right: 0;
+	top:20px;
+}
+.chat1{
+	width: 500px;
+	height: 131px;
+	margin-bottom: 60px;
+}
+.chat1 img{
+	float: left;
+}
+.name {
+	color:#d2d4d7;
+	float: left;
+	margin-bottom: 20px;
+
+}
+.text {
+	float: left;
+	color: #909399;
+}
+
